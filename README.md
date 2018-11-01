@@ -1,1 +1,1 @@
-# kaggle-datasets-download--d-blastchar-telco-customer-churn
+# Instruction for Team Project from INFM 600
