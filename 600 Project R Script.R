@@ -46,8 +46,8 @@ CSjobGender <- read.csv("C:/Users/dyang129/Desktop/Team Project/USED in Plot/CSj
 t.test(CSjobGender$Male, CSjobGender$Female)
 
 # here we want to see the relationship between unemployed and family in proverty
-x2<- mdSocioEc$Unemployment.Rate
-y2 <- mdSocioEc$PercentFamiliesinPoverty
+x2 <- mdSocioEc$PercentFamiliesinPoverty
+y2<- mdSocioEc$Unemployment.Rate
 plot(x2, y2, col="blue", main = "Percent of Unemployed and Percent of Family in Proverty Regression", abline(lm(y2~x2)),cex.main = 0.8, xlab = "Percent Unemployed", ylab= "Percent Family in Poverty")
 
 # To see if there is the coefficient corelation between HS diploma and females, and P value
